@@ -42,7 +42,7 @@ paths:
         - name: output-mode
           in: header
           description: |
-            Output mode for mobile-html. Valid options: `contentAndReferences` (default), `content`, `references`, `editPreview`.
+            Output mode for mobile-html. Valid options: `editPreview` (default), `contentAndReferences`, `content`, `references`.
           required: false
           schema:
             type: string
